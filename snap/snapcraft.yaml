@@ -71,3 +71,9 @@ plugs:
   #  your local code projects.
   home-read:
     interface: home
+
+  # read access to ssh keys
+  ssh-read:
+    interface: personal-files
+    read:
+      - $HOME/.ssh
